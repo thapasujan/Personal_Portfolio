@@ -1,16 +1,73 @@
-# React + Vite
+# Personal Portfolio 👨‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Welcome!**
+This repository contains my personal portfolio website — a modern, responsive platform built with **React** and **Tailwind CSS** to showcase my skills, projects, and professional experience as a software and web developer.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About the Project
 
-## React Compiler
+My personal portfolio is designed to present who I am, what I build, and how I solve problems with clean, reliable code. It highlights:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 💼 My experience and roles
+* 🛠 Skills in full-stack technologies
+* 📂 Projects with links and descriptions
+* 📬 Contact section for connecting with me
 
-## Expanding the ESLint configuration
+This portfolio helps me share my work with prospective employers, collaborators, and anyone interested in my development journey. ([GitHub][1])
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Built With
+
+✔ **React** — UI library for building interactive interfaces
+✔ **Tailwind CSS** — utility-first styling framework
+✔ **Vite** — fast build tooling for development
+
+---
+
+## 🌟 Features
+
+* Fully responsive layout
+* Clean and modern design
+* Easy navigation between sections
+* Showcases skills, projects, and contact information
+
+---
+
+## 📁 Folder Structure
+
+```
+📦 Personal_Portfolio
+├── public
+├── src
+├── .gitignore
+├── README.md
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
+```
+
+---
+
+## 📌 Want to Contribute?
+
+This portfolio is open source! You’re welcome to:
+
+* 📝 Suggest improvements
+* ✨ Add new sections
+* 🐛 Report bugs
+
+Just fork the repo, make your changes, and create a pull request 🎉
+
+---
+
+## 📫 Connect With Me
+
+I’d love to connect! Feel free to reach out on GitHub or through links on the website.
+
+---
+
+## 🧾 License
+
+This project is open source — feel free to use or adapt it as a reference ❤️

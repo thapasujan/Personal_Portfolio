@@ -6,9 +6,6 @@ const Footer = () => {
   return (
     <footer className="bg-dark border-t border-light/10 py-8">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <p className="text-light/60 mb-4">
-          Built with <FaHeart className="inline text-red-500" /> using React & Tailwind CSS
-        </p>
         <p className="text-light/60">
           © {currentYear} Sujan Thapa. All rights reserved.
         </p>

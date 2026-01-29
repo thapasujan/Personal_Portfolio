@@ -41,7 +41,7 @@ const HeroSimple = () => {
                 </div>
                 <div>
                   <p className="text-gray-400">Projects worked on</p>
-                  <h3 className="text-3xl font-bold text-white">10+</h3>
+                  <h3 className="text-3xl font-bold text-white">7+</h3>
                 </div>
               </div>
 

@@ -35,7 +35,7 @@ const personal_projects = [
     title: "Personal Portfolio",
     description: "My personal portfolio website showcasing my projects and skills.",
     technologies: ["React", "Tailwind CSS"],
-    github: "",
+    github: "https://github.com/thapasujan/Personal_Portfolio.git",
     live: "https://sujanthapa.vercel.app/",
     image: portfolio
   },
