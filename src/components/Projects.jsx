@@ -36,7 +36,7 @@ const personal_projects = [
     description: "My personal portfolio website showcasing my projects and skills.",
     technologies: ["React", "Tailwind CSS"],
     github: "https://github.com/thapasujan/Personal_Portfolio.git",
-    live: "https://sujanthapa.vercel.app/",
+    live: "https://personal-portfolio-eta-dun-46.vercel.app/",
     image: portfolio
   },
   {
