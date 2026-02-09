@@ -1,4 +1,4 @@
-import sujanthapaCV from "../assets/sujan-thapa-cv.pdf";
+import sujanthapaCV from "../assets/sujan thapa CV.pdf";
 const About = () => {
   return (
     <section id="about" className="section-padding">

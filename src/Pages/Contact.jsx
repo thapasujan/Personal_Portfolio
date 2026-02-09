@@ -1,25 +1,25 @@
-import { useState } from 'react';
-import { FaPaperPlane } from 'react-icons/fa';
+import { useState } from "react";
+import { FaPaperPlane, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission here (connect to backend or email service)
-    console.log('Form submitted:', formData);
-    alert('Message sent successfully!');
-    setFormData({ name: '', email: '', message: '' });
+    console.log("Form submitted:", formData);
+    alert("Message sent successfully!");
+    setFormData({ name: "", email: "", message: "" });
   };
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -27,35 +27,65 @@ const Contact = () => {
     <section id="contact" className="section-padding bg-dark/50">
       <div className="max-w-4xl mx-auto">
         <h2 className="section-title">Get In Touch</h2>
-        
+
         <div className="grid md:grid-cols-2 gap-12">
           <div className="animate-slide-up">
             <h3 className="text-2xl font-bold mb-6">Let's work together!</h3>
             <p className="text-light/70 mb-6">
-              I'm currently open to freelance work, or just a friendly chat about tech.
+              I'm currently open to freelance work, or just a friendly chat
+              about tech.
             </p>
-            
+
             <div className="space-y-4">
               <div>
                 <h4 className="font-bold text-lg mb-2">Email</h4>
-                <a href="mailto:your.email@example.com" className="text-primary hover:underline">
+                <a
+                  href="mailto:your.email@example.com"
+                  className="text-primary hover:underline"
+                >
                   thapasujan1025@gmail.com
                 </a>
               </div>
-              
+
               <div>
                 <h4 className="font-bold text-lg mb-2">Location</h4>
                 <p className="text-light/70">Kathmandu, Nepal</p>
               </div>
-              
+
               <div>
                 <h4 className="font-bold text-lg mb-2">Whatsapp</h4>
                 <p className="text-light/70">+977 9869013576</p>
               </div>
+
+              <div className="flex gap-6 mt-4">
+                <a
+                  href="https://github.com/thapasujan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                >
+                  <FaGithub
+                    size={32}
+                    className="hover:text-gray-600 transition"
+                  />
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/sthapasujan/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin
+                    size={32}
+                    className="hover:text-blue-600 transition"
+                  />
+                </a>
+              </div>
             </div>
           </div>
-          
-          <div className="animate-slide-up" style={{ animationDelay: '0.2s' }}>
+
+          <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium mb-2">Name</label>
@@ -69,7 +99,7 @@ const Contact = () => {
                   placeholder="Your name"
                 />
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium mb-2">Email</label>
                 <input
@@ -82,9 +112,11 @@ const Contact = () => {
                   placeholder="example@gmail.com"
                 />
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium mb-2">Message</label>
+                <label className="block text-sm font-medium mb-2">
+                  Message
+                </label>
                 <textarea
                   name="message"
                   value={formData.message}
@@ -95,7 +127,7 @@ const Contact = () => {
                   placeholder="Your message..."
                 ></textarea>
               </div>
-              
+
               <button
                 type="submit"
                 className="btn-primary w-full flex items-center justify-center space-x-2"
