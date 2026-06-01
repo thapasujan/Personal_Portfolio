@@ -16,6 +16,8 @@ import {
   SiTypescript,
   SiCplusplus,
   SiC,
+  SiFastapi,
+  SiFlask,
 } from "react-icons/si";
 import { MdDesignServices } from "react-icons/md";
 import { BiCodeBlock } from "react-icons/bi";

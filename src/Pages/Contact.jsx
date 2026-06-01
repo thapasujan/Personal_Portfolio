@@ -84,7 +84,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
+{/* 
           <div className="animate-slide-up" style={{ animationDelay: "0.2s" }}>
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
@@ -136,7 +136,7 @@ const Contact = () => {
                 <span>Send Message</span>
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

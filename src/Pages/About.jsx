@@ -1,4 +1,4 @@
-import sujanthapaCV from "../assets/sujanthapacv.pdf";
+import sujanthapaCV from "../assets/sujan_thapa_cv.pdf";
 const About = () => {
   return (
     <section id="about" className="section-padding">
@@ -39,13 +39,12 @@ const About = () => {
                 <div className="space-y-6">
                   {[
                     {
-                      title: "Full Stack Developer",
+                      title: "Junior Full Stack Developer",
                       company: "Paper Bank Solutions",
                       period: "Dec 2025 - Present",
                       points: [
-                        "Bug fixing & troubleshooting",
-                        "Client requirement analysis",
-                        "Feature development",
+                        "Architected the transition of fragmented codebases into a scalable, multi-tenant SaaS platform.",
+                        "Analyzed client requirements to drive feature development and core troubleshooting.",
                       ],
                     },
                     {
