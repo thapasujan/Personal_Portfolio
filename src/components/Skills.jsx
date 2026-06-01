@@ -21,22 +21,17 @@ import { MdDesignServices } from "react-icons/md";
 import { BiCodeBlock } from "react-icons/bi";
 
 const skills = [
-  { icon: <FaDatabase />, name: "SQL", level: "80%" },
+  { icon: <FaDatabase />, name: "SQL", level: "70%" },
   { icon: <MdDesignServices />, name: "System Design", level: "60%" },
   { icon: <FaReact />, name: "React", level: "60%" },
-  { icon: <FaJs />, name: "JavaScript", level: "80%" },
+  { icon: <FaJs />, name: "JavaScript", level: "70%" },
   { icon: <SiTypescript />, name: "TypeScript", level: "50%" },
   { icon: <FaNodeJs />, name: "Node.js", level: "75%" },
   { icon: <SiExpress />, name: "Express.js", level: "75%" },
-  { icon: <SiTailwindcss />, name: "Tailwind", level: "70%" },
-  { icon: <FaHtml5 />, name: "HTML5", level: "95%" },
-  { icon: <FaCss3Alt />, name: "CSS3", level: "80%" },
-  { icon: <SiMongodb />, name: "MongoDB", level: "70%" },
+  { icon: <SiFastapi />, name: "FastAPI", level: "60%" }, // Added
   { icon: <FaPython />, name: "Python", level: "60%" },
-  { icon: <FaGitAlt />, name: "Git", level: "75%" },
-  { icon: <SiC />, name: "C", level: "50%" },
-  { icon: <SiCplusplus />, name: "C++", level: "50%" },
-  { icon: <SiNextdotjs />, name: "Next.js", level: "40%" },
+  { icon: <SiFlask />, name: "Flask", level: "60%" }, // Added
+  { icon: <FaGitAlt />, name: "Git", level: "60%" },
 ];
 
 const Skills = () => {
@@ -97,7 +92,6 @@ const Skills = () => {
                   title: "Performance",
                   desc: "Optimizing for speed and efficiency",
                 },
-                { title: "Testing", desc: "Writing maintainable tests" },
               ].map((item, index) => (
                 <div
                   key={index}
