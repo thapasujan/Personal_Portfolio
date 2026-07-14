@@ -25,15 +25,14 @@ import { BiCodeBlock } from "react-icons/bi";
 const skills = [
   { icon: <FaDatabase />, name: "SQL", level: "70%" },
   { icon: <MdDesignServices />, name: "System Design", level: "60%" },
-  { icon: <FaReact />, name: "React", level: "60%" },
+  { icon: <FaPython />, name: "Python", level: "60%" },
   { icon: <FaJs />, name: "JavaScript", level: "70%" },
   { icon: <SiTypescript />, name: "TypeScript", level: "50%" },
+  { icon: <FaGitAlt />, name: "Git", level: "60%" },
+  { icon: <FaReact />, name: "React", level: "60%" },
   { icon: <FaNodeJs />, name: "Node.js", level: "75%" },
   { icon: <SiExpress />, name: "Express.js", level: "75%" },
   { icon: <SiFastapi />, name: "FastAPI", level: "60%" }, // Added
-  { icon: <FaPython />, name: "Python", level: "60%" },
-  { icon: <SiFlask />, name: "Flask", level: "60%" }, // Added
-  { icon: <FaGitAlt />, name: "Git", level: "60%" },
 ];
 
 const Skills = () => {
